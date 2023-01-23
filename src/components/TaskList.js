@@ -11,6 +11,7 @@ const TaskList = (props) => {
 
   useEffect(() => {
     dispatch(loadTasksAsync());
+    console.log('useEffect');
   }, []);
   return (
     <>
